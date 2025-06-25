@@ -80,29 +80,29 @@ NASA_BASE_URL=https://api.nasa.gov
 PORT=3001
 ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000,http://localhost:8080
 
-##🛠️ Running Locally
+## 🛠️ Running Locally
 1️⃣ Clone the Repository
 
 git clone https://github.com/lavuchandu169/web-app-test-api.git
 cd web-app-test-api
 
 
-##2️⃣ Install Backend Dependencies
+## 2️⃣ Install Backend Dependencies
 
 cd backend
 npm install
 
-##3️⃣ Start the Backend Server
+## 3️⃣ Start the Backend Server
 
 node server.js
 Backend will run at: http://localhost:3001
 
-##4️⃣ Install Frontend Dependencies
+## 4️⃣ Install Frontend Dependencies
 In a new terminal tab:
 
 cd ../
 npm install
 
-## 5️⃣ Start the Frontend Dev Server
+##  5️⃣ Start the Frontend Dev Server
 
 npm run dev
