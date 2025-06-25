@@ -2,6 +2,7 @@
 
 A beautifully designed space exploration web app that visualizes stunning images and data from various NASA APIs including APOD, EPIC Earth imagery, Mars Rover Photos, and Near-Earth Objects. Built for educational and space-enthusiast use cases.
 
+👉 **Live Demo:** [https://nasa-expo.vercel.app](https://nasa-expo.vercel.app)
 ---
 
 ##  Features
