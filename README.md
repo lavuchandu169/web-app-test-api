@@ -47,3 +47,36 @@ web-app-test-api/
 │ └── index.html
 │
 └── README.md
+
+
+
+---
+
+## 🧪 Prerequisites
+
+Make sure the following are installed:
+
+- Node.js ≥ v16
+- npm ≥ v8
+- Git
+- Modern web browser (Chrome, Firefox, Edge)
+
+---
+
+## 🔑 NASA API Key
+
+1. Go to [https://api.nasa.gov](https://api.nasa.gov) and sign up for a free API key.
+2. Copy the key and paste it into your `.env` file in the `backend` directory.
+
+---
+
+## ⚙️ .env Configuration
+
+Create a `.env` file inside the `backend/` folder:
+
+```env
+NASA_API_KEY=your_nasa_api_key_here
+NASA_BASE_URL=https://api.nasa.gov
+PORT=3001
+ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000,http://localhost:8080
+
