@@ -28,3 +28,22 @@ A beautifully designed space exploration web app that visualizes stunning images
 
 ##  Project Structure
 
+web-app-test-api/
+│
+├── backend/ # Node.js backend
+│ ├── controllers/ # API route controllers
+│ ├── services/ # NASA API service logic
+│ ├── routes/ # Express routes
+│ ├── .env # Environment variables (local)
+│ └── server.js # Main entry point
+│
+├── frontend/ # React frontend (Vite)
+│ ├── src/
+│ │ ├── components/ # UI components
+│ │ ├── services/ # NASAApiService.ts
+│ │ └── pages/ # Page views
+│ ├── public/
+│ ├── vite.config.ts
+│ └── index.html
+│
+└── README.md
