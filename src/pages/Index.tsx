@@ -84,8 +84,7 @@ const Index = () => {
         <footer className="border-t border-space-700 mt-16">
           <div className="container mx-auto px-4 py-8 text-center">
             <p className="text-muted-foreground">
-              Powered by NASA's Open Data APIs • Built with{' '}
-              <span className="text-cosmic-400">❤️</span> for space exploration
+              Powered by NASA's Open Data APIs
             </p>
           </div>
         </footer>
